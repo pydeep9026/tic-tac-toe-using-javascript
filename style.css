@@ -5,25 +5,19 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: contain;
+    background-image: url(12345678.jpg);
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    flex-direction: column;
-    overflow: hidden;
-    background-size: cover;
-    height: 100vh;
-    width:220vh;
-    background-image: url(123456.jpg);
-}
+
 
 
 
 .players{
-    background-color: aliceblue;
     margin-top: 150px;
     border: 2px solid #143d59;
     max-height:  200px;
@@ -31,17 +25,18 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+    background:white;
     border-radius:25px;
     border-style:dotted;
-    font-size: 28px;
+    font-size: 25px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-shadow: 16px 14px 20px #0000008c;
 }
 
 .players div{
-    padding: 15px 35px;
+    padding: 13px 35px;
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
 }
 
 .players div.active{
@@ -63,10 +58,11 @@ body{
     width: 100px;
     border: 2px solid black;;
     font-size: 90px;
-    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     box-shadow: 16px 14px 20px #0000008c;
-    border-radius: 25px;
+    border-radius: 26px;
 }
 
 .O{
